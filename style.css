@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --color-base-blue: #065e7c;
+  --color-base-ligth: #f4fcff;
+  --color-base-white: #ffffff;
+  --color-base-blue-wrapper: #387e96;
+
+  --color-text-H1: #202024;
+  --color-text-p: #121214;
+}
+#app {
+  display: grid;
+  height: 100vh;
+  max-width: 43rem;
+
+}
+
+html,
+body {
+  font-family: Mulish;
+}
+
+header {
+  display: flex;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--color-base-white);
+  color: var(--color-base-gray-900);
+}
+main {
+  overflow-y: scroll;
+ 
+}
+
+.item-first > img {
+  width: 100%;
+  border-radius: 0.6rem;
+  display: inline;
+  margin-bottom:1.90rem ;
+
+}
+ 
+
+.item {
+
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  margin-bottom:2rem ;
+}
+
+.input-wrapper label {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.input-wrapper input {
+  width: 100%;
+  display: flex;
+  padding: 0.8rem 1rem 0.9rem;
+  align-items: center;
+  width: 25rem;
+  height: 4rem;
+  background-color: var(--color-base-blue-wrapper);
+  border-radius: 0.25rem;
+  color: #ffff;
+}
+
+.input-wrapper input::placeholder {
+  color: #ffffff;
+}
+
+#search {
+  display: flex;
+  padding: 0.8rem 1rem 0.9rem;
+  align-items: center;
+  border-radius: 0.25rem;
+  border: none;
+  height: auto;
+  font-family: Mulish;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h1 {
+  color: var(--color-text-H1);
+  font-size: 1.6rem;
+  gap: 1rem;
+  font-size: 1.6rem;
+  
+}
+h1:first-child {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  color: var(--color-text-H1);
+  gap: 0.95rem;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+}
+p {
+  color: var(--color-text-p);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  margin-bottom: 0.9rem;
+}
+
+form {
+  border-radius: 0.25rem;
+}
+
+header {
+  background-color: var(--color-base-blue);
+  gap: 1.59rem;
+  align-items: center;
+  height: 7.2rem;
+ 
+}
+
+.container{
+  padding: 1.35rem;
+}
+.button {
+  padding: 0.5rem 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.90rem;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--color-base-blue-wrapper);
+  height: 4rem;
+  padding:1rem;
+  display: flex;
+  justify-content: center;
+  
+}
+
+footer p {
+  color: #ffff;
+  line-height: normal;
+}
