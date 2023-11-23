@@ -33,6 +33,7 @@ body {
 header {
   display: flex;
   justify-content: center; /*para centralizar tudo o que esta contido no header*/
+  height: 7rem;
 }
 
 body {
@@ -44,6 +45,12 @@ main {
   overflow-y: scroll;
  
 }
+.container{
+   width: 90%;
+   margin: auto;
+}
+
+
 
 .item-first > img {
   width: 100%;
@@ -109,7 +116,7 @@ h1:first-child {
   margin-bottom: 0.5rem;
   gap: 1.9rem;
   margin-right: 4.12rem;
-  color: red;
+
 }
 
 h2 {
@@ -138,15 +145,6 @@ header {
  
 }
 
-.container{
- width: 90%;
- margin: auto;
- outline: 1px solid brown;
-
-}
-h1 {
-  color: blue;
-}
 .button {
   padding: 0.5rem 0.5rem;
   margin-top: 0.5rem;
@@ -159,6 +157,7 @@ footer {
   height: 6.4rem;
   display: flex;
   justify-content:center;
+  align-items: center;
 }
 
 footer p {
