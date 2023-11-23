@@ -40,14 +40,19 @@ body {
   font-size: 1.6rem;
   background-color: var(--color-base-white);
   color: var(--color-base-gray-900);
+  
 }
 main {
   overflow-y: scroll;
+  
+  
  
 }
+
 .container{
    width: 90%;
    margin: auto;
+   
 }
 
 
@@ -106,9 +111,12 @@ main {
 
 h1 {
   color: var(--color-text-H1);
-  font-size: 1.6rem;
+  font-size: 2rem;
   gap: 1rem;
-  font-size: 1.6rem;
+  width: 90%; 
+  margin : auto;
+  
+  
   
 }
 h1:first-child {
@@ -116,7 +124,8 @@ h1:first-child {
   margin-bottom: 0.5rem;
   gap: 1.9rem;
   margin-right: 4.12rem;
-
+  line-height: 2.4rem;
+ 
 }
 
 h2 {
@@ -158,6 +167,8 @@ footer {
   display: flex;
   justify-content:center;
   align-items: center;
+  max-height: calc(100vh - 140px);
+  
 }
 
 footer p {
