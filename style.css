@@ -19,7 +19,7 @@
 }
 #app {
   display: grid;
-  height: calc(100vh - 5.2rem);
+  height: calc(100vh - 6rem);
   max-width: 43rem; /*definido a largura maxima*/
   margin: 0 auto; /* para alinhar ao medio da tela*/
   
