@@ -23,6 +23,7 @@ Neste modulo aprendimos conceitos de responsividade,fundamentos de  grid no codi
 
 ## 🔗 Deploy 
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)
 
 
 
